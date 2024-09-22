@@ -26,6 +26,7 @@ public enum OMAction implements AuditAction {
   ALLOCATE_BLOCK,
   ALLOCATE_KEY,
   COMMIT_KEY,
+  TEST,
 
   HSYNC,
   RECOVER_LEASE,
